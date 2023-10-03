@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
+
 import Jewellery from "@/components/pages/Home/Jewellery";
 import Values from "@/components/pages/Home/Values";
 import Education from "@/components/pages/Home/Education";
@@ -22,9 +22,7 @@ export default function Home() {
             The best handcrafted Jewellery money can buy at a affordable price
           </p>
           <Link href="shop">
-            <Button variant="shopLink" className="">
-              Shop Now
-            </Button>
+            <button className="btn btn-primary">Shop Now</button>
           </Link>
         </div>
       </div>

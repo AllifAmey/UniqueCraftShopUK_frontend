@@ -1,5 +1,4 @@
 import EducationCard from "./components/EducationCard";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { BsTiktok } from "react-icons/bs";
 import { AiFillYoutube } from "react-icons/ai";
 
@@ -35,7 +34,7 @@ export default function Education() {
           <AiFillYoutube size={35} />
         </div>
 
-        <ScrollArea className="h-[80%]">
+        <div className="h-[80%] overflow-y-scroll">
           <EducationCard />
           <EducationCard />
           <EducationCard />
@@ -48,7 +47,7 @@ export default function Education() {
           <EducationCard />
           <EducationCard />
           <EducationCard />
-        </ScrollArea>
+        </div>
       </section>
     </section>
   );

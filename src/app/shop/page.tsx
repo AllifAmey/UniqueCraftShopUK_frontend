@@ -1,4 +1,3 @@
-import { Checkbox } from "@/components/ui/checkbox";
 import ProductCard from "@/components/pages/Shop/ProductCard";
 
 export default function Shop() {
@@ -8,7 +7,11 @@ export default function Shop() {
         <h2 className="text-2xl text-center font-bold">Jewellery</h2>
         <div className="flex justify-center gap-8">
           <div className="flex-1 flex justify-end">
-            <Checkbox id="Rings" />
+            <input
+              id="Rings"
+              type="checkbox"
+              className="checkbox checkbox-primary"
+            />
           </div>
 
           <label
@@ -20,7 +23,11 @@ export default function Shop() {
         </div>
         <div className="flex justify-center gap-8">
           <div className="flex-1 flex justify-end">
-            <Checkbox id="Pendant" />
+            <input
+              id="Pendant"
+              type="checkbox"
+              className="checkbox checkbox-primary"
+            />
           </div>
 
           <label
@@ -32,7 +39,11 @@ export default function Shop() {
         </div>
         <div className="flex justify-center gap-8">
           <div className="flex-1 flex justify-end">
-            <Checkbox id="Earrings" />
+            <input
+              id="Earrings"
+              type="checkbox"
+              className="checkbox checkbox-primary"
+            />
           </div>
 
           <label
@@ -69,7 +80,11 @@ export default function Shop() {
           <ProductCard />
         </div>
         <div className="flex justify-center">
-          <div>Page 1</div>
+          <div className="join">
+            <button className="join-item btn">«</button>
+            <button className="join-item px-2">Page 1</button>
+            <button className="join-item btn">»</button>
+          </div>
         </div>
       </div>
     </div>

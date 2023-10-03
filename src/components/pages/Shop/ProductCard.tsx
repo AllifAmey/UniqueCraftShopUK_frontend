@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Badge } from "@/components/ui/badge";
 
 export default function ProductCard() {
   return (
@@ -14,7 +13,7 @@ export default function ProductCard() {
       </div>
       <div>Handmade flower nature desi...</div>
       <div>£2.99</div>
-      <Badge variant="shopBadge">FREE UK DELIVERY</Badge>
+      <div className="badge  badge-primary">FREE UK DELIVERY</div>
     </div>
   );
 }

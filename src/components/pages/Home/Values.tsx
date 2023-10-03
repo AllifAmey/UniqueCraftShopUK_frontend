@@ -32,7 +32,7 @@ export default function Values() {
             alt="Placeholder Image"
           />
         </div>
-        <div className=" relative flex flex-col h-[50vh]  w-[50vw] text-center">
+        <div className="  relative flex flex-col h-[50vh]  w-[50vw] text-center">
           <h2 className="text-2xl py-12 font-bold">Authentic</h2>
           <p className="text-lg break-words w-4/5 self-center">
             All of our jewellery are handcrafted by a qualified jewellery maker

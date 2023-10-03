@@ -13,6 +13,7 @@ export default function NavBar() {
                 href={
                   header === "Shop" ? "shop" : header === "Home" ? "/" : header
                 }
+                className="btn btn-link no-underline"
               >
                 {header}
               </Link>
